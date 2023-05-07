@@ -1,0 +1,34 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# weatherindices
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of weatherindices is to facilitate the calculation of Weather Indices for crop yield modeling.
+
+## Installation
+
+You can install the development version of weatherindices from [GitHub](https://github.com/akstat21/weatherindices) 
+
+``` r
+# install.packages("devtools")
+devtools::install_github("akstat21/weatherindices")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(weatherindices)
+data(Burdwanweather) #Weekly weather data for the rice growing season in Burdwan
+data(Burdwanriceyield) #Yearly Yield data of rice  in Burdwan
+wwi.maxtem<-wwi(Burdwanriceyield$burdwan,Burdwanweather$Max.Temperature)
+wwi.maxtem
+```
+
