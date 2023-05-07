@@ -1,0 +1,20 @@
+Package: weatherindices
+Title: Calculate Weather Indices
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Akhilesh Kumar", "Gupta",,"akhileshgupta.ouat@gmail.com", role =  c("aut","cph","cre"),
+           comment = c(ORCID = "0000-0001-9380-1103")),
+    person("Kader Ali", "Sarkar",,"kader804@gmail.com", role ="ths"),
+    person("Digvijay Singh", "Dhakre",,"dhakreds@gmail.com", role =  "ths"),
+    person("Debasis", "Bhattacharya",,"debasis_us@yahoo.com", role =  "ths"))
+Description: Weather indices represent the overall effect of weather variable on crop yield throughout cropping season. This package contains function which can Convert the weekly weather data into yearly weighted weather indices with weights being the correlation coefficient between weekly weather data over the years and crop yield over the years. This can be done for individual weather variable and for two at a time as interaction.
+License: GPL (>= 3) + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
