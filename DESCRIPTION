@@ -1,6 +1,6 @@
 Package: weatherindices
 Title: Calculate Weather Indices
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: c(
     person("Akhilesh Kumar", "Gupta",,"akhileshgupta.ouat@gmail.com", role =  c("aut","cph","cre"),
            comment = c(ORCID = "0000-0001-9380-1103")),
