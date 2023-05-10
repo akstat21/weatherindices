@@ -23,7 +23,10 @@ devtools::install_github("akstat21/weatherindices")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+To calculate weather indices you require weekly weather data and year
+yield data. Both the data should be separate variables. The number of
+data points in weather variable should be multiple of numbers of years
+of yield data and number of weeks considered in each year.
 
 ``` r
 library(weatherindices)
