@@ -4,6 +4,8 @@
 # weatherindices
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/akstat21/weatherindices/workflows/R-CMD-check/badge.svg)](https://github.com/akstat21/weatherindices/actions)
 <!-- badges: end -->
 
 The goal of weatherindices is to facilitate the calculation of Weather
