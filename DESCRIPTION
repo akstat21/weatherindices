@@ -8,7 +8,7 @@ Authors@R: c(
     person("Digvijay Singh", "Dhakre",,"dhakreds@gmail.com", role =  "ths"),
     person("Debasis", "Bhattacharya",,"debasis_us@yahoo.com", role =  "ths"))
 Description: Weather Indices represent the overall effect of weather variable on crop yield throughout cropping season. This package contains function which can Convert the weekly weather data into yearly weighted Weather Indices with weights being the correlation coefficient between weekly weather data over the years and crop yield over the years. This can be done for individual weather variable and for two at a time as interaction.
-License: GPL (>= 3) + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
